@@ -1,0 +1,50 @@
+package org.example.constants;
+
+import org.openqa.selenium.By;
+
+public class Elements {
+    public static final By anaSayfaGirisYapButonu=By.cssSelector("div[class='menu-top-button login']");
+    public static final By loginMailAlani=By.id("login-email");
+    public static final By loginPasswordAlani=By.id("login-password");
+    public static final By loginGirisYapButonu=By.cssSelector(".ky-form-buttons>button");
+    public static final By hesabimYazisi=By.cssSelector("h1[class='section']");
+    public static final By searchInput=By.id("search-input");
+    public static final By searchButonu=By.xpath("//span[@class='common-sprite button-search']");
+    public static final By kenarMenu=By.xpath("//span[@class='sprite sprite-stars-5']");
+    public static final By favoriButonu=By.xpath("//a[@class='add-to-favorites']");
+    public static final By logoAnasayfa=By.xpath("(//a[@href='https://www.kitapyurdu.com/'])[2]");
+    public static final By listelerim=By.xpath("//a[text()='Listelerim']");
+    public static final By favorilerim=By.xpath("//a[text()='Favorilerim']");
+    public static final By puanKatologu=By.xpath("//div[@class='lvl1catalog']/a[text()='Puan Kataloğu']");
+    public static final By turkKlasikleri=By.xpath("//img[@title='Puan Kataloğundaki Türk Klasikleri']");
+    public static final By filtreleme=By.xpath("//div[@class='sort']/select[@onchange='location = this.value;']");
+    public static final By tumKitaplar=By.xpath("//li[@class='has-open-menu']/span[text()='Tüm Kitaplar']");
+    public static final By hobiKitaplar=By.xpath("//a[text()='Hobi']");
+    public static final By randomClick=By.xpath("//a[@class='pr-img-link']");
+    public static final By sepeteEkle=By.id("button-cart");
+    public static final By favorilerdenSil=By.xpath("(//a[@data-title='Favorilerimden Sil'])[3]");
+    public static final By refreshIcon=By.xpath("//i[@class='fa fa-refresh green-icon']");
+    public static final By sepet=By.xpath("//div[@class='fl']/h4[text()='Sepetim']");
+    public static final By sepeteGit=By.xpath("//div[@class='mg-b-5']/a[@class='button']");
+    public static final By urunMiktari=By.xpath("//input[@name='quantity']");
+    public static final By satinAl=By.xpath("//div[@class='right']/a");
+    public static final By faturaAd=By.id("address-firstname-companyname");
+    public static final By faturaSoyad=By.id("address-lastname-title");
+    public static final By sehirSec=By.id("address-zone-id");
+    public static final By ilceSec=By.id("address-county-id");
+    public static final By faturaAdres=By.id("address-address-text");
+    public static final By faturaMahalle=By.id("district");
+    public static final By cepTel=By.id("address-mobile-telephone");
+    public static final By devam=By.id("button-checkout-continue");
+    public static final By creditCardOwner=By.id("credit-card-owner");
+    public static final By creditCardNumber=By.id("credit_card_number_1");
+    public static final By creditCardMonth=By.id("credit-card-expire-date-month");
+    public static final By creditCardYear=By.id("credit-card-expire-date-year");
+    public static final By creditCardCVV=By.id("credit-card-security-code");
+    public static final By yeniAdres=By.xpath("//div[@id='shipping-tabs']/a[text()='Yeni bir adres kullanmak istiyorum.']");
+    public static final By checkoutLogo=By.xpath("//a[@class='checkout-logo']");
+    public static final By logoutLogo=By.xpath("//div[@class='menu top login']/ul/li/a[@class='common-sprite']");
+    public static final By cikis=By.xpath("//a[text()='Çıkış']");
+    public static final By adresler=By.xpath("(//a[@class='highlight-link'])[3]");
+    public static final By sil=By.xpath("(//a[text()='Sil'])[1]");
+}
