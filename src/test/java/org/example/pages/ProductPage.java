@@ -118,5 +118,11 @@ public class ProductPage {
         methods.waitBySecond(2);
         methods.Click(logoAnasayfa);
     }
+    /*public void dortUrunFavoriEkle(){
+        methods.Click(dokuzuncuUrunFavori);
+        methods.Click(onuncuUrunFavori);
+        methods.Click(onbirinciUrunFavori);
+        methods.Click(onikinciUrunFavori);
+    }*/
 
 }

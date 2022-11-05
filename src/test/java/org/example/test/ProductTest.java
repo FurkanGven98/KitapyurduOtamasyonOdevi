@@ -14,6 +14,7 @@ public class ProductTest extends BaseTest {
         ProductPage productPage=new ProductPage();
         loginPage.login();
         productPage.scrollAndSelect();
+        //productPage.dortUrunFavoriEkle();
         //productPage.randomClickFav();
         productPage.favoriKontrol();
         productPage.clickElement(logoAnasayfa);

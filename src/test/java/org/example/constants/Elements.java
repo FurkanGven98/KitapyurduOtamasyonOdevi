@@ -47,4 +47,8 @@ public class Elements {
     public static final By cikis=By.xpath("//a[text()='Çıkış']");
     public static final By adresler=By.xpath("(//a[@class='highlight-link'])[3]");
     public static final By sil=By.xpath("(//a[text()='Sil'])[1]");
+    public static final By dokuzuncuUrunFavori=By.xpath("(//a[@class='add-to-favorites'])[7]");
+    public static final By onuncuUrunFavori=By.xpath("(//a[@class='add-to-favorites'])[8]");
+    public static final By onbirinciUrunFavori=By.xpath("(//a[@class='add-to-favorites'])[9]");
+    public static final By onikinciUrunFavori=By.xpath("(//a[@class='add-to-favorites'])[10]");
 }
